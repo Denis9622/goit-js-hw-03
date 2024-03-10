@@ -1,6 +1,5 @@
 function filterArray(numbers, value) {
   let evenNumbers = [];
-  let = numbers.length;
   for (let i = 0; i <= numbers.length; i++) {
     if (numbers[i] > value) {
       evenNumbers.push(numbers[i]);
