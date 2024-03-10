@@ -1,11 +1,11 @@
 function filterArray(numbers, value) {
-  let evenNumbers = [];
-  for (var i = 0; i <= numbers.length; i++) {
+  let newArray = [];
+  for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] > value) {
-      evenNumbers.push(numbers[i]);
+      newArray.push(numbers[i]);
     }
   }
-  return evenNumbers;
+  return newArray;
 }
 
 console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]
